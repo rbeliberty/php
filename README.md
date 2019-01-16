@@ -12,11 +12,15 @@ $ source .bashrc
 ```
 
 # Commandes
+```sh
 alias php='docker run --rm -u `id -u` -v `pwd`:/src -w /src --rm php:tag'
+```
 
 # Exemple 
+```sh
 alias php73='docker run --rm -u `id -u` -v `pwd`:/src -w /src --rm php:7.3-fpm'
 alias php72='docker run --rm -u `id -u` -v `pwd`:/src -w /src --rm php:7.2-fpm'
+```
 
 # Exécuter les commandes
 ```sh

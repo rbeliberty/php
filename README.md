@@ -3,7 +3,13 @@ Comment cohabiter et lancer plusieurs versions de PHP en local avec Docker.
 
 # A faire
 - Dans le fichier .bash_aliases (si activé dans le .bashrc)
-- Faire source .bashrc pour recharger
+```sh
+$ nano .bash_aliases
+```
+- Exécuter la commande pour recharger :
+```sh
+$ source .bashrc
+```
 
 # Commandes
 alias php='docker run --rm -u `id -u` -v `pwd`:/src -w /src --rm php:tag'

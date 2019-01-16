@@ -13,5 +13,7 @@ alias php73='docker run --rm -u `id -u` -v `pwd`:/src -w /src --rm php:7.3-fpm'
 alias php72='docker run --rm -u `id -u` -v `pwd`:/src -w /src --rm php:7.2-fpm'
 
 # Exécuter les commandes
-- php72 --version
-- php73 --version
+```sh
+$ php72 --version
+$ php73 --version
+```
